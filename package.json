@@ -1,6 +1,9 @@
 {
   "name": "bun-workspace",
   "module": "index.ts",
+  "scripts": {
+    "dev": "bun --filter '*' dev"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
